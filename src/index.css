@@ -1,29 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 
 @import "tailwindcss";
 @plugin "daisyui";
 
 
-
-
-.font-parisienne {
-  font-family: "Parisienne", cursive;
-  font-weight: 400;
-  font-style: normal;
+/* heading font */
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-:root{
+/* body font */
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* logo font */
+.font-parisienne {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    font-family: "monteserrat";
+}
+
+
+/* :root{
     --color-primary: #0B132B;
     --color-secondary: #1C2541;
     --color-accent: #FFD166;
-}
+} */
 
 /* Blue and Coral - fresh - professional */
-/* :root{
+
+:root{
     --color-primary: #1B4965 ;
     --color-secondary: #CAE9FF;
     --color-accent: #FF6B6B;
-} */
+}
 
 /* Teal and Orange - Modern - Energetic */
 /* :root{
@@ -44,6 +69,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+
+
+.nav.active{
+    @apply bg-blue-500 text-white px-2 py-1 rounded-sm;
 }
 
 
