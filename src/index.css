@@ -11,3 +11,39 @@
   font-weight: 400;
   font-style: normal;
 }
+
+:root{
+    --color-primary: #0B132B;
+    --color-secondary: #1C2541;
+    --color-accent: #FFD166;
+}
+
+/* Blue and Coral - fresh - professional */
+/* :root{
+    --color-primary: #1B4965 ;
+    --color-secondary: #CAE9FF;
+    --color-accent: #FF6B6B;
+} */
+
+/* Teal and Orange - Modern - Energetic */
+/* :root{
+    --color-primary: #006D77;
+    --color-secondary: #E0FBFC;
+    --color-accent: #FF9F1C;
+} */
+
+/* Purple and Lime - Creative - Bold */
+/* :root{
+    --color-primary: #4B3F72;
+    --color-secondary: #EAE6F2;
+    --color-accent: #A1C349 ;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
