@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 import profileImage from "/assets/images/profile.jpg";
+import QuickSocialLinks from "../QuickSocialLinks/QuickSocialLinks";
 
 const Hero = () => {
     return (
@@ -34,6 +35,9 @@ const Hero = () => {
 
                     </p>
                 </div>
+
+
+                <QuickSocialLinks></QuickSocialLinks>
             </div>
 
             {/* image div */}
