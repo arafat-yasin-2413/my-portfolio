@@ -9,10 +9,10 @@ const QuickSocialLinks = () => {
         <>
         
             <div className="flex items-center gap-4 my-4">
-                <Link className="hover:text-blue-500"><FaLinkedin size={48}></FaLinkedin></Link>
-                <Link className="hover:text-blue-500"><FaGithub size={48}></FaGithub></Link>
-                <Link className="hover:text-blue-500"><FaFacebookF size={48}></FaFacebookF></Link>
-                <Link className="hover:text-blue-500"><FaTwitter size={48}></FaTwitter></Link>
+                <Link to="https://www.linkedin.com/in/yasin-arafat-dev/" className="hover:text-blue-500"><FaLinkedin size={48}></FaLinkedin></Link>
+                <Link to="https://github.com/arafat-yasin-2413" className="hover:text-blue-500"><FaGithub size={48}></FaGithub></Link>
+                <Link to="https://www.facebook.com/yasin.arafat.482092/" className="hover:text-blue-500"><FaFacebookF size={48}></FaFacebookF></Link>
+                <Link to="https://x.com/YasinArafa43087" className="hover:text-blue-500"><FaTwitter size={48}></FaTwitter></Link>
             </div>
         
             <div className="mb-8">

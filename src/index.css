@@ -50,6 +50,12 @@
     --color-accent: #f97316;
 }
 
+:dark{
+    --color-primary: #1B4965 ;
+    --color-secondary: #CAE9FF;
+    --color-accent: #f97316;
+}
+
 /* Teal and Orange - Modern - Energetic */
 /* :root{
     --color-primary: #006D77;
