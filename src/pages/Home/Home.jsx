@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../../components/Container/Container";
 import Hero from "../../components/Hero/Hero";
 import About from "../About/About";
-import Technologies from "../../components/Technologies/Technologies";
+import Tools from "../../components/Tools/Tools";
+import Skills from "../../components/Skills/Skills";
 
 const Home = () => {
     return (
@@ -11,7 +11,9 @@ const Home = () => {
 
             <About></About>
 
-            <Technologies></Technologies>
+            <Skills></Skills>
+
+            <Tools></Tools>
         </>
     );
 };
