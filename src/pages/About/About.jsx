@@ -6,7 +6,7 @@ const About = () => {
     return (
         <Container>
             <div>
-                <div className="border">
+                <div className="">
                     <MainTitle text={"About Me"}></MainTitle>
                 </div>
 
