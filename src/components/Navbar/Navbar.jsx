@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 const Navbar = () => {
     return (
-        <nav className="sticky z-50 top-0 shadow">
+        <nav className="sticky z-50 top-0 shadow backdrop-blur-md">
             <div className="w-9/12 mx-auto">
                 <div className="navbar">
                     <div className="navbar-start">
