@@ -35,7 +35,7 @@ const Skills = () => {
                     
 
                     {/* tailwind */}
-                    <IconCard icon={                    <Icon icon="skill-icons:tailwindcss-light" width="64" height="64" />} text={"Tailwind"}>
+                    <IconCard icon={<Icon icon="devicon:tailwindcss" width="64" height="64" />} text={"Tailwind"}>
 
                     </IconCard>
 
@@ -49,7 +49,7 @@ const Skills = () => {
                     
                 
                     {/* react */}
-                    <IconCard icon={<Icon icon="skill-icons:react-light" width="64" height="64" />} text={"React"}></IconCard>
+                    <IconCard icon={<Icon icon="devicon:react" width="64" height="64" />} text={"React"}></IconCard>
                     
                
 

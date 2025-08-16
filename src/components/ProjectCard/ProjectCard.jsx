@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const ProjectCard = ({ image, projectName, buttonText }) => {
     return (
@@ -9,9 +10,12 @@ const ProjectCard = ({ image, projectName, buttonText }) => {
 
             <div className="mt-2">
                 <h2 className="text-xl font-semibold mb-2">{projectName}</h2>
-                <h4 className="bg-accent w-fit px-3 py-1 rounded mb-4 cursor-pointer">
-                    {buttonText}
-                </h4>
+
+                <Link to="/projectDetails">
+                    <h4 className="bg-accent w-fit px-3 py-1 rounded mb-4 cursor-pointer">
+                        {buttonText}
+                    </h4>
+                </Link>
             </div>
         </div>
     );

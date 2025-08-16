@@ -1,5 +1,4 @@
 import React from "react";
-import { GoContainer } from "react-icons/go";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import Container from "../../components/Container/Container";
 
