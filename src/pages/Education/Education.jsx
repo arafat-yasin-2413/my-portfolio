@@ -17,7 +17,7 @@ const Education = () => {
                             alt=""
                         />
                     </div>
-                    <div>
+                    <div className="bg-white w-full rounded-md border border-gray-100 p-4">
                         <h2 className="text-3xl mb-2">
                             Bachelor of Science in CSE
                         </h2>
