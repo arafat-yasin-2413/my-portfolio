@@ -21,20 +21,24 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-36 p-2 shadow"
                             >
-                                <NavbarLinks></NavbarLinks>
+                                <div className="">
+                                    <NavbarLinks></NavbarLinks>
+                                </div>
                             </ul>
                         </div>
                         <Link to="/" className="text-xl -ml-2">
                             <Logo></Logo>
                         </Link>
                     </div>
-                    <div className="navbar-center hidden lg:flex">
+
+                    {/* <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1"></ul>
-                    </div>
+                    </div> */}
+
                     <div className="navbar-end -mr-2">
-                        <ul className="flex gap-6">
+                        <ul className="hidden lg:flex gap-6">
                             <NavbarLinks></NavbarLinks>
                         </ul>
                     </div>
