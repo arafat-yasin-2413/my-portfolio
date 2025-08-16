@@ -13,6 +13,7 @@
     "@iconify/react": "^6.0.0",
     "@tailwindcss/vite": "^4.1.11",
     "gsap": "^3.13.0",
+    "lottie-react": "^2.4.1",
     "ogl": "^1.0.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

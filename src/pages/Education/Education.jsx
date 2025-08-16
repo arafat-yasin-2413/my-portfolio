@@ -2,18 +2,33 @@ import React from "react";
 import { GoContainer } from "react-icons/go";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import Container from "../../components/Container/Container";
-import Educard from "../../components/EduCard/Educard";
 
 const Education = () => {
     return (
         <Container>
             <MainTitle text={"Education"}></MainTitle>
-            
-            <div className="lg:flex items-center gap-8 my-8 space-y-8 lg:space-y-0">
 
-                <Educard degree={"Bachelor of Science in CSE"} institution={"Manarat International University"} duration={"2020-2024"}></Educard>
-                <Educard degree={"HSC"} institution={"Jahangirnagar University School & College"} duration={"2016-2018"}></Educard>
+            <div className="mt-4">
+                <div className="border-t-4 border-t-black rounded-md shadow py-4 px-2 flex items-center gap-8">
+                    <div>
+                        <img
+                            className="w-40"
+                            src="/assets/images/miu.png"
+                            alt=""
+                        />
+                    </div>
+                    <div>
+                        <h2 className="text-3xl mb-2">
+                            Bachelor of Science in CSE
+                        </h2>
 
+                        <p className="text-xl">
+                            Manarat International University
+                        </p>
+
+                        <p>2020-2024</p>
+                    </div>
+                </div>
             </div>
         </Container>
     );
