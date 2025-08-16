@@ -8,12 +8,16 @@ import Container from "../Container/Container";
 const Hero = () => {
     return (
         <Container>
-            <div className="h-[calc(100dvh-150px)] flex flex-col xl:flex-row justify-around items-center gap-12 border">
+            <div className="h-[calc(100dvh-150px)] flex flex-col-reverse xl:flex-row justify-around items-center gap-12">
                 {/* content div */}
-                <div className="flex-1 border-2 border-red-200">
+                <div className="xl:flex-1">
                     <div>
-                        <h2 className="text-[2.5rem]">
-                            Hi, I am Yasin Arafat <br />
+                        <h2 className="text-2xl md:text-3xl font-">
+                            Hi, I am{" "}
+                            <span className="text-accent text-3xl font-bold">
+                                Yasin Arafat
+                            </span>{" "}
+                            <br />
                             <TypeAnimation
                                 preRenderFirstString={true}
                                 sequence={[
@@ -27,11 +31,12 @@ const Hero = () => {
                                 ]}
                                 speed={50}
                                 // style={{ fontSize: "3rem" }}
+                                className="font-semibold text-xl md:text-3xl"
                                 repeat={Infinity}
                             />
                         </h2>
 
-                        <p className="my-4">
+                        <p className="my-4 text-gray-600 text-sm sm:text-base md:text-lg text-left">
                             A Creative Frontend Developer dedicated to designing
                             visually stunning, responsive, and user-focused web
                             applications that deliver seamless, engaging digital
@@ -43,9 +48,9 @@ const Hero = () => {
                 </div>
 
                 {/* image div */}
-                <div className="flex-1 flex justify-center border-2 border-green-300">
+                <div className="flex xl:flex-1 justify-end">
                     <img
-                        className="w-80 rounded-full outline-4 outline-blue-500 "
+                        className="w-52 sm:w-60 md:w-64 lg:w-80 xl:w-96 rounded-full outline-4 outline-blue-500 "
                         src={profileImage}
                         alt="profile image"
                     />

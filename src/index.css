@@ -36,18 +36,10 @@
 }
 
 
-/* :root{
-    --color-primary: #0B132B;
-    --color-secondary: #1C2541;
-    --color-accent: #FFD166;
-} */
-
-/* Blue and Coral - fresh - professional */
-
 :root{
     --color-primary: #1B4965 ;
     --color-secondary: #CAE9FF;
-    --color-accent: #f97316;
+    --color-accent: #2563eb;
 }
 
 :dark{
@@ -55,20 +47,6 @@
     --color-secondary: #CAE9FF;
     --color-accent: #f97316;
 }
-
-/* Teal and Orange - Modern - Energetic */
-/* :root{
-    --color-primary: #006D77;
-    --color-secondary: #E0FBFC;
-    --color-accent: #FF9F1C;
-} */
-
-/* Purple and Lime - Creative - Bold */
-/* :root{
-    --color-primary: #4B3F72;
-    --color-secondary: #EAE6F2;
-    --color-accent: #A1C349 ;
-} */
 
 
 body {
@@ -80,7 +58,7 @@ body {
 
 
 .nav.active{
-    @apply text-blue-500 font-bold;
+    @apply text-blue-600 font-bold;
 }
 
 
