@@ -15,43 +15,48 @@ const Tools = () => {
                 </div>
 
                 <div>
-                    <p className="my-4">
+                    <p className="my-4 lg:w-1/2">
                         Proficient with essential development tools that streamline workflow, enhance productivity, and ensure efficient project delivery.
                     </p>
                 </div>
 
 
-                <div className='flex items-center gap-4'>
+                <div className='grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center xl:w-1/2 xl:mx-auto'>
                     {/* vs code */}
-                    <IconCard icon={<Icon icon="skill-icons:vscode-light" width="64" height="64" />} text={"VS Code"}></IconCard>
+                    <IconCard icon={<Icon icon="skill-icons:vscode-light" width="40" height="40" />} ></IconCard>
 
                     {/* github */}
-                    <IconCard icon={<Icon icon="skill-icons:github-dark" width="64" height="64" />} text={"Github"}></IconCard>
+                    <IconCard icon={<Icon icon="skill-icons:github-dark" width="40" height="40" />} ></IconCard>
                     
                     {/* git */}
-                    <IconCard icon={<Icon icon="skill-icons:git" width="64" height="64" />} text={"Git"}></IconCard>
+                    <IconCard icon={<Icon icon="skill-icons:git" width="40" height="40" />} ></IconCard>
+
+                    {/* axios */}
+                    <IconCard icon={<Icon icon="devicon-plain:axios" width="40" height="40" />}></IconCard>
 
                     {/* firebase */}
-                    <IconCard icon={<Icon icon="devicon:firebase" width="64" height="64" />} text={"Firebase"}></IconCard>
+                    <IconCard icon={<Icon icon="devicon:firebase" width="40" height="40" />} ></IconCard>
 
                     {/* postman */}
-                    <IconCard icon={<Icon icon="logos:postman-icon" width="64" height="64" />} text={"Postman"}></IconCard>
+                    <IconCard icon={<Icon icon="logos:postman-icon" width="40" height="40" />} ></IconCard>
 
                     {/* stripe */}
-                    <IconCard icon={<Icon icon="logos:stripe" width="64" height="64" />} text={"Stripe"}></IconCard>
+                    <IconCard icon={<Icon icon="logos:stripe" width="40" height="40" />} ></IconCard>
 
                     {/* netlify */}
-                    <IconCard icon={<Icon icon="material-icon-theme:netlify" width="64" height="64" />} text={"Netlify"}></IconCard>
+                    <IconCard icon={<Icon icon="material-icon-theme:netlify" width="40" height="40" />} ></IconCard>
 
                     {/* vercel */}
-                    <IconCard icon={<Icon icon="devicon:vercel" width="64" height="64" />} text={"Vercel"}></IconCard>
+                    <IconCard icon={<Icon icon="devicon:vercel" width="40" height="40" />} ></IconCard>
 
                     {/* npm */}
-                    <IconCard icon={<Icon icon="devicon:npm" width="64" height="64" />} text={"NPM"}></IconCard>
+                    <IconCard icon={<Icon icon="devicon:npm" width="40" height="40" />} ></IconCard>
 
                     {/* figma */}
-                    <IconCard icon={<Icon icon="material-icon-theme:figma" width="64" height="64" />} text={"Figma"}></IconCard>
+                    <IconCard icon={<Icon icon="material-icon-theme:figma" width="40" height="40" />} ></IconCard>
 
+                    {/* chrome */}
+                    <IconCard icon={<Icon icon="logos:chrome" width="40" height="40" />}></IconCard>
 
                 </div>
         </div>
