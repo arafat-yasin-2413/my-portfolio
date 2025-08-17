@@ -21,10 +21,10 @@ const Contact = () => {
 
                     <div className="">
                         <Lottie animationData={contactAnimation} loop={true} style={{ width: "300px"}}></Lottie>
-                    <div>
-                        <p className="flex items-center gap-2 mb-1"><Icon icon="line-md:email-opened-alt-twotone" width="24" height="24" />yasinarafat1396@gmail.com</p>
-                        <p className="flex items-center gap-2 mb-1"><Icon icon="bx:phone" width="24" height="24" />+8801799566455</p>
-                        <p className="flex items-center gap-2 mb-1"><Icon icon="ri:whatsapp-line" width="24" height="24" />+8801799566455</p>
+                    <div className="my-4 bg-white p-8 rounded border-2 border-gray-200/50">
+                        <p className="flex items-center gap-2 mb-1"><Icon icon="line-md:email-opened-alt-twotone" className="text-blue-600" width="24" height="24" />yasinarafat1396@gmail.com</p>
+                        <p className="flex items-center gap-2 mb-1"><Icon icon="bx:phone" className="text-blue-400" width="24" height="24" />+8801799566455</p>
+                        <p className="flex items-center gap-2 mb-1"><Icon icon="ri:whatsapp-line" className="text-green-500" width="24" height="24" />+8801799566455</p>
                     </div>
                     </div>
 
