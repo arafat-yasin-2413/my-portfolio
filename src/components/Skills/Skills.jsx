@@ -15,7 +15,7 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <p className="my-4 w-1/2">
+                    <p className="my-4 lg:w-1/2">
                         Skilled in modern web technologies to build responsive,
                         high-performance applications that deliver seamless user
                         experiences.

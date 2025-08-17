@@ -13,7 +13,7 @@ const Frontend = () => {
 
                 <div className="border border-gray-200 w-36 mx-auto mb-4"></div>
 
-                <div className="flex gap-4 my-2 justify-center items-center">
+                <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center xl:w-1/2 xl:mx-auto">
                     {/* html */}
                     <IconCard
                         icon={
@@ -22,6 +22,7 @@ const Frontend = () => {
                         text={"HTML"}
                     ></IconCard>
 
+                    
                     {/* css */}
                     <IconCard
                         icon={
@@ -74,6 +75,9 @@ const Frontend = () => {
                         }
                     ></IconCard>
                 </div>
+
+               
+                
             </div>
         </>
     );
