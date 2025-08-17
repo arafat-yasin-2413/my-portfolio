@@ -1,10 +1,10 @@
 import React from 'react';
 
-const IconCard = ({icon, text}) => {
+const IconCard = ({icon}) => {
     return (
-        <div className="border flex flex-col items-center"> 
+        <div className="border-2 rounded-full p-3 flex justify-center items-center border-gray-200/50"> 
             {icon}
-            <span className='my-1'>{text}</span>
+            <span className='my-1'></span>
         </div>
     );
 };
