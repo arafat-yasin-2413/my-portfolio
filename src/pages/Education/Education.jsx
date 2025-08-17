@@ -8,24 +8,24 @@ const Education = () => {
             <MainTitle text={"Education"}></MainTitle>
 
             <div className="mt-4">
-                <div className="border-t-4 border-t-black rounded-md shadow py-4 px-2 flex items-center gap-8">
-                    <div>
+                <div className="border-t-4 border-t-black rounded-md shadow py-4 px-2 flex flex-col items-center gap-8">
+                    <div className="border rounded-full border-gray-200 bg-white">
                         <img
-                            className="w-40"
+                            className="w-32 sm:w-36 md:w-40"
                             src="/assets/images/miu.png"
                             alt=""
                         />
                     </div>
                     <div className="bg-white w-full rounded-md border border-gray-100 p-4">
-                        <h2 className="text-3xl mb-2">
+                        <h2 className="text-xl mb-2 font-semibold">
                             Bachelor of Science in CSE
                         </h2>
 
-                        <p className="text-xl">
+                        <p className="text-base">
                             Manarat International University
                         </p>
 
-                        <p>2020-2024</p>
+                        <p className="font-semibold mt-2">2020-2024</p>
                     </div>
                 </div>
             </div>
