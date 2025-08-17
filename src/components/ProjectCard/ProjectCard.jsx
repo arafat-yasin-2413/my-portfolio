@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router";
 
-const ProjectCard = ({ image, projectName, buttonText }) => {
+const ProjectCard = ({ image, projectName, buttonText, features, challenges, futurePlans, live, github }) => {
+
+    // console.log(features);
+
     return (
         <div className="border border-gray-100 rounded-xl bg-white p-6">
             <div className="border-b border-gray-200">
@@ -11,8 +14,18 @@ const ProjectCard = ({ image, projectName, buttonText }) => {
             <div className="mt-2">
                 <h2 className="text-xl font-semibold mb-2">{projectName}</h2>
 
-                <Link to="/projectDetails">
-                    <h4 className="bg-accent w-fit px-3 py-1 rounded mb-4 cursor-pointer">
+                <Link to="/projectDetails"
+                    state={{
+                        projectName: projectName,
+                        projectImage: image,
+                        features: features,
+                        live: live,
+                        github: github,
+                        challenges: challenges,
+                        futurePlans: futurePlans,
+                    }}
+                >
+                    <h4 className="bg-accent text-white hover:bg-accent/80 w-fit px-3 py-1 rounded mb-4 cursor-pointer">
                         {buttonText}
                     </h4>
                 </Link>

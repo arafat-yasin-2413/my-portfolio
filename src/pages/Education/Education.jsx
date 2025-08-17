@@ -1,6 +1,7 @@
 import React from "react";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import Container from "../../components/Container/Container";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Education = () => {
     return (
@@ -8,7 +9,7 @@ const Education = () => {
             <MainTitle text={"Education"}></MainTitle>
 
             <div className="mt-4">
-                <div className="border-t-4 border-t-black rounded-md shadow py-4 px-2 flex flex-col items-center gap-8">
+                <div className="border-t-4 border-t-secondary rounded-md shadow py-4 px-2 flex flex-col items-center gap-8">
                     <div className="border rounded-full border-gray-200 bg-white">
                         <img
                             className="w-32 sm:w-36 md:w-40"
@@ -25,7 +26,7 @@ const Education = () => {
                             Manarat International University
                         </p>
 
-                        <p className="font-semibold mt-2">2020-2024</p>
+                        <p className="font-semibold mt-2 flex items-center gap-2 text-accent"><Icon icon="mingcute:time-duration-fill" width="24" height="24" />2020-2024</p>
                     </div>
                 </div>
             </div>

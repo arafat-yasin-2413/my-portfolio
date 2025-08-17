@@ -15,19 +15,19 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                Component: Home,
+                element: <Home scrollTo={"home"}></Home>,
             },
             {
                 path: '/about',
-                Component: About,
+                element: <Home scrollTo="about"></Home>,
             },
             {
                 path: '/projects',
-                Component: Projects,
+                element: <Home scrollTo="projects"></Home>,
             },
             {
                 path: '/contact',
-                Component: Contact,
+                element: <Home scrollTo={"contact"}></Home>,
             },
             {
                 path: '/resume',

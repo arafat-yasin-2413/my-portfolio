@@ -6,9 +6,9 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 const Footer = () => {
     return (
-        <div className="pt-32 pb-4 bg-base-200">
+        <div className="pt-32 pb-4 bg-secondary">
             <div className="flex justify-center items-center">
-                <ul className="flex flex-col gap-4 sm:flex-row">
+                <ul className="flex flex-col gap-6 sm:flex-row">
                     <NavbarLinks></NavbarLinks>
                 </ul>
             </div>
