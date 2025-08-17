@@ -16,7 +16,7 @@ const QuickSocialLinks = () => {
             </div>
         
             <div className="mb-8">
-                <Link className="flex justify-center items-center bg-accent hover:bg-accent/90 text-white tracking-wider w-fit rounded px-3 py-1 md:py-2 text-sm font-bold"><span>Resume</span><IoMdDownload size={24}></IoMdDownload> </Link>
+                <Link to="/resume" className="flex justify-center items-center bg-accent hover:bg-accent/90 text-white tracking-wider w-fit rounded px-3 py-1 md:py-2 text-sm font-bold"><span>Resume</span><IoMdDownload size={24}></IoMdDownload> </Link>
             </div>
     
         </>
