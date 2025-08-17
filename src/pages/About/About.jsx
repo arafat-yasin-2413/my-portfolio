@@ -9,54 +9,57 @@ import developerAnim from "../../assets/animations/web developmemt.json"
 const About = () => {
     return (
         <Container>
-            <div>
+            <div className="h-screen flex justify-center items-center">
+
+            <div className="flex flex-col">
+
                 <div className="">
                     <MainTitle text={"About Me"}></MainTitle>
                 </div>
 
-                <div className="flex flex-col-reverse my-4 lg:flex-row lg:justify-center lg:items-center lg:gap-8">
-                    <div className="flex-1">
-                        <p className="text-justify mt-4 mb-2">
-                            Hello! I’m Md Yasin Arafat, a passionate Frontend &
-                            MERN Stack Developer with a strong focus on crafting
+                <div className="flex flex-col-reverse my-4 xl:flex-row lg:justify-center lg:items-center lg:gap-8">
+                    <div className="flex-1 text-sm md:text-base">
+                        <p className="mt-4 mb-2">
+                            <span className="font-bold">H</span>ello! I’m <span className="text-accent font-semibold">Md Yasin Arafat</span>, a passionate <span className="text-accent">Frontend</span> & <span className="text-accent">MERN</span> Stack Developer with a strong focus on crafting
                             modern, user-friendly, and scalable web
                             applications.
                         </p>
 
-                        <p className="text-justify mb-2">
-                            My programming journey started out of
+                        <p className="mb-2">
+                            <span className="font-bold">M</span>y programming journey started out of
                             curiosity—experimenting with simple websites,
                             tweaking layouts, and gradually diving deeper into
                             JavaScript then React.
                         </p>
 
-                        <p className="text-justify mb-2">
-                            I enjoy working on projects where design meets
+                        <p className="mb-2">
+                            <span className="font-bold">I</span> enjoy working on projects where design meets
                             functionality—transforming complex problems into
                             clean, elegant, and intuitive solutions.
                         </p>
 
-                        <p className="text-justify mb-2">
-                            Outside of coding, I’m a curious explorer at heart.
+                        <p className="mb-2">
+                            <span className="font-bold">O</span>utside of coding, I’m a curious explorer at heart.
                             I love playing football, keeping up with tech
                             trends, and sketching ideas when inspiration
                             strikes. These hobbies help me stay balanced,
-                            refresh my creativity, and often spark new ways of
-                            thinking about my work.
+                            refresh my creativity.
                         </p>
 
-                        <p className="text-justify mb-2">
-                            At my core, I’m someone who values continuous
+                        <p className="mb-2">
+                            <span className="font-bold">A</span>t my core, I’m someone who values continuous
                             growth, collaboration, and problem-solving.
                         </p>
                     </div>
 
-                    <div className="flex-1">
-                        <div className="flex justify-center items-center">
+                    <div className="flex-1 my-4">
+                        <div className="flex justify-center items-center w-full mx-auto">
                             <Lottie animationData={developerAnim} loop={true} autoplay={true} 
-                            style={{ width: "300px", height: "300px"}} ></Lottie>
+                            style={{ width: "300px" }} ></Lottie>
                         </div>
                     </div>
+                </div>
+
                 </div>
             </div>
         </Container>
