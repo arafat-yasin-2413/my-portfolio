@@ -13,12 +13,12 @@ const About = () => {
 
             <div className="flex flex-col">
 
-                <div className="">
+                <div className="text-white">
                     <MainTitle text={"About Me"}></MainTitle>
                 </div>
 
                 <div className="flex flex-col-reverse my-4 xl:flex-row lg:justify-center lg:items-center lg:gap-8">
-                    <div className="flex-1 text-sm md:text-base xl:text-lg">
+                    <div className="flex-1 text-white text-sm md:text-base xl:text-lg">
                         <p className="mt-4 mb-2">
                             <span className="font-bold">H</span>ello! I’m <span className="text-accent font-semibold">Md Yasin Arafat</span>, a passionate <span className="text-accent">Frontend</span> & <span className="text-accent">MERN</span> Stack Developer with a strong focus on crafting
                             modern, user-friendly, and scalable web

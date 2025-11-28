@@ -5,7 +5,7 @@ import Subtitle from "../SubTitle/Subtitle";
 const ProjectTech = () => {
     return (
         <div className="mt-8">
-            <div className="border-b-2 w-fit border-gray-200 ">
+            <div className="border-b-2 w-fit border-gray-200 text-white">
                 <Subtitle text={"Technologies"}></Subtitle>
             </div>
 

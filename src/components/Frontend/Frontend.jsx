@@ -7,7 +7,7 @@ const Frontend = () => {
     return (
         <>
             <div className="">
-                <div className="text-center mt-4">
+                <div className="text-center text-white mt-4">
                     <Subtitle text={"Frontend"}></Subtitle>
                 </div>
 

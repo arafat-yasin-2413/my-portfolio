@@ -10,12 +10,12 @@ const Skills = () => {
     return (
         <Container>
             <div>
-                <div>
+                <div className="text-white">
                     <MainTitle text={"Skills"}></MainTitle>
                 </div>
 
                 <div>
-                    <p className="my-4 lg:w-1/2">
+                    <p className="my-4 text-white lg:w-1/2">
                         Skilled in modern web technologies to build responsive,
                         high-performance applications that deliver seamless user
                         experiences.

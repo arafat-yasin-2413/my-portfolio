@@ -61,7 +61,7 @@ const ProjectDetails = () => {
                         </div>
 
                         {/* project name */}
-                        <div className="mt-8 flex items-center gap-1">
+                        <div className="mt-8 flex items-center text-white gap-1">
                             <MainTitle text={projectName}></MainTitle>
                         </div>
 
@@ -78,7 +78,7 @@ const ProjectDetails = () => {
                             <ProjectTech></ProjectTech>
 
                             {/* brief description */}
-                            <div className="mt-8">
+                            <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
                                     <Subtitle
                                         text={"Brief Description"}
@@ -129,7 +129,7 @@ const ProjectDetails = () => {
                             </div>
 
                             {/* Challenges */}
-                            <div className="mt-8">
+                            <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
                                     <Subtitle
                                         text={"Challenges Faced"}
@@ -154,7 +154,7 @@ const ProjectDetails = () => {
                             </div>
                             
                             {/* Future Plans */}
-                            <div className="mt-8">
+                            <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
                                     <Subtitle
                                         text={"Future Plans"}

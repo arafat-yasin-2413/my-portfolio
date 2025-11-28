@@ -12,7 +12,7 @@ const Contact = () => {
         <Container>
             <div>
 
-                <div>
+                <div className="text-white">
                     <MainTitle text={"Contact Me"}></MainTitle>
                 </div>
 

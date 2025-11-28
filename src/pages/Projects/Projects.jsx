@@ -213,7 +213,7 @@ const Projects = () => {
     return (
         <Container>
             <div className="">
-                <div className="">
+                <div className="text-white">
                     <MainTitle text={"Projects"}></MainTitle>
                 </div>
 

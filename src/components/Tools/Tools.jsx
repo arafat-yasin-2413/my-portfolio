@@ -9,13 +9,13 @@ const Tools = () => {
         <Container>
 
 
-        <div>
             <div>
+                <div className="text-white">
                     <MainTitle text={"Tools"}></MainTitle>
                 </div>
 
                 <div>
-                    <p className="my-4 lg:w-1/2">
+                    <p className="my-4 text-white lg:w-1/2">
                         Proficient with essential development tools that streamline workflow, enhance productivity, and ensure efficient project delivery.
                     </p>
                 </div>
@@ -27,7 +27,7 @@ const Tools = () => {
 
                     {/* github */}
                     <IconCard icon={<Icon icon="skill-icons:github-dark" width="40" height="40" />} ></IconCard>
-                    
+
                     {/* git */}
                     <IconCard icon={<Icon icon="skill-icons:git" width="40" height="40" />} ></IconCard>
 
@@ -59,7 +59,7 @@ const Tools = () => {
                     <IconCard icon={<Icon icon="logos:chrome" width="40" height="40" />}></IconCard>
 
                 </div>
-        </div>
+            </div>
         </Container>
     );
 };

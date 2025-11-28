@@ -6,7 +6,9 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 const Education = () => {
     return (
         <Container>
-            <MainTitle text={"Education"}></MainTitle>
+            <div className="text-white">
+                <MainTitle text={"Education"}></MainTitle>
+            </div>
 
             <div className="mt-4">
                 <div className="border-t-4 border-t-secondary rounded-md shadow py-4 px-2 flex flex-col items-center gap-8">

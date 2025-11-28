@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="h-[calc(100dvh-150px)] flex flex-col-reverse xl:flex-row justify-around items-center gap-12">
                 {/* content div */}
                 <div className="xl:flex-1">
-                    <div>
+                    <div className="text-white">
                         <h2 className="text-2xl md:text-3xl font-">
                             Hi, I am{" "}
                             <span className="text-accent text-3xl font-bold">
@@ -36,7 +36,7 @@ const Hero = () => {
                             />
                         </h2>
 
-                        <p className="my-4 text-gray-600 text-sm sm:text-base md:text-lg text-left">
+                        <p className="my-4 text-sm sm:text-base md:text-lg text-left text-white">
                             A Creative Frontend Developer dedicated to designing
                             visually stunning, responsive, and user-focused web
                             applications that deliver seamless, engaging digital
