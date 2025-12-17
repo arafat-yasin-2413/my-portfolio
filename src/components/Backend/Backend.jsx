@@ -29,7 +29,7 @@ const Backend = () => {
                     
 
                     {/* express js */}
-                    <IconCard icon={<Icon icon="lineicons:expressjs" width="40" height="40" />} ></IconCard>
+                    <IconCard icon={<Icon icon="lineicons:expressjs" className="text-white" width="40" height="40" />} ></IconCard>
                     
                 </div>
 

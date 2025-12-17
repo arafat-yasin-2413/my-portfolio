@@ -32,7 +32,7 @@ const Tools = () => {
                     <IconCard icon={<Icon icon="skill-icons:git" width="40" height="40" />} ></IconCard>
 
                     {/* axios */}
-                    <IconCard icon={<Icon icon="devicon-plain:axios" width="40" height="40" />}></IconCard>
+                    <IconCard icon={<Icon icon="devicon-plain:axios" className="text-white" width="40" height="40" />}></IconCard>
 
                     {/* firebase */}
                     <IconCard icon={<Icon icon="devicon:firebase" width="40" height="40" />} ></IconCard>
