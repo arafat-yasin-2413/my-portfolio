@@ -17,11 +17,11 @@ const Navbar = () => {
                                 role="button"
                                 className="lg:hidden"
                             >
-                                <HiMenu className="text-2xl mr-4 cursor-pointer"></HiMenu>
+                                <HiMenu className="text-2xl text-white mr-4 cursor-pointer"></HiMenu>
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-36 p-2 shadow"
+                                className="menu menu-sm dropdown-content bg-[#12101a] rounded-box z-1 mt-3 w-36 p-2 shadow"
                             >
                                 <div className="">
                                     <NavbarLinks></NavbarLinks>
