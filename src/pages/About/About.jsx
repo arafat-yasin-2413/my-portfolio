@@ -2,68 +2,76 @@ import React from "react";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import Container from "../../components/Container/Container";
 import Lottie from "lottie-react";
+import { motion } from "framer-motion";
 
-import developerAnim from "../../assets/animations/web developmemt.json"
-
+import developerAnim from "../../assets/animations/web developmemt.json";
 
 const About = () => {
-    return (
-        <Container>
-            <div className="h-screen flex justify-center items-center">
+  return (
+    <Container>
+      <section className="min-h-screen flex items-center">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
+          {/* Text Content */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="text-white"
+          >
+            <MainTitle text="About Me" />
 
-            <div className="flex flex-col">
+            <div className="mt-6 space-y-4 text-sm md:text-base xl:text-lg leading-relaxed text-white/80">
+              <p>
+                Hello! I’m <span className="text-accent font-semibold">Md Yasin Arafat</span>, a passionate
+                <span className="text-accent"> Frontend</span> & <span className="text-accent">MERN Stack</span> Developer who loves building
+                modern, scalable, and user-friendly web applications.
+              </p>
 
-                <div className="text-white">
-                    <MainTitle text={"About Me"}></MainTitle>
-                </div>
+              <p>
+                My journey began with curiosity—experimenting with simple layouts, breaking things, fixing them,
+                and eventually falling in love with JavaScript and React.
+              </p>
 
-                <div className="flex flex-col-reverse my-4 xl:flex-row lg:justify-center lg:items-center lg:gap-8">
-                    <div className="flex-1 text-white text-sm md:text-base xl:text-lg">
-                        <p className="mt-4 mb-2">
-                            <span className="font-bold">H</span>ello! I’m <span className="text-accent font-semibold">Md Yasin Arafat</span>, a passionate <span className="text-accent">Frontend</span> & <span className="text-accent">MERN</span> Stack Developer with a strong focus on crafting
-                            modern, user-friendly, and scalable web
-                            applications.
-                        </p>
+              <p>
+                I enjoy working at the intersection of <span className="text-accent">design</span> and
+                <span className="text-accent"> functionality</span>, turning complex ideas into clean,
+                intuitive digital experiences.
+              </p>
 
-                        <p className="mb-2">
-                            <span className="font-bold">M</span>y programming journey started out of
-                            curiosity—experimenting with simple websites,
-                            tweaking layouts, and gradually diving deeper into
-                            JavaScript then React.
-                        </p>
+              <p>
+                Beyond coding, I enjoy playing football, exploring new tech trends, and sketching ideas—these keep
+                my creativity fresh and mindset balanced.
+              </p>
 
-                        <p className="mb-2">
-                            <span className="font-bold">I</span> enjoy working on projects where design meets
-                            functionality—transforming complex problems into
-                            clean, elegant, and intuitive solutions.
-                        </p>
-
-                        <p className="mb-2">
-                            <span className="font-bold">O</span>utside of coding, I’m a curious explorer at heart.
-                            I love playing football, keeping up with tech
-                            trends, and sketching ideas when inspiration
-                            strikes. These hobbies help me stay balanced,
-                            refresh my creativity.
-                        </p>
-
-                        <p className="mb-2">
-                            <span className="font-bold">A</span>t my core, I’m someone who values continuous
-                            growth, collaboration, and problem-solving.
-                        </p>
-                    </div>
-
-                    <div className="flex-1 my-4">
-                        <div className="flex justify-center items-center w-full mx-auto">
-                            <Lottie animationData={developerAnim} loop={true} autoplay={true} 
-                            style={{ width: "300px" }} ></Lottie>
-                        </div>
-                    </div>
-                </div>
-
-                </div>
+              <p>
+                At my core, I value <span className="text-accent">continuous learning</span>,
+                <span className="text-accent"> collaboration</span>, and meaningful problem-solving.
+              </p>
             </div>
-        </Container>
-    );
+          </motion.div>
+
+          {/* Animation Card */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="flex justify-center"
+          >
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl p-6">
+              <Lottie
+                animationData={developerAnim}
+                loop
+                autoplay
+                style={{ width: "320px" }}
+              />
+            </div>
+          </motion.div>
+        </div>
+      </section>
+    </Container>
+  );
 };
 
 export default About;
