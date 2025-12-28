@@ -6,7 +6,7 @@ const ProjectCard = ({ image, projectName, buttonText, features, challenges, fut
     // console.log(features);
 
     return (
-        <div className="border border-gray-100 rounded-xl bg-white p-6">
+        <div className="border-2 border-primary rounded-xl bg-white p-6">
             <div className="border-b border-gray-200">
                 <img className="w-full mb-4 rounded-t-xl " src={image} alt="" />
             </div>
