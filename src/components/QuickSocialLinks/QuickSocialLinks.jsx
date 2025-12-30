@@ -9,7 +9,7 @@ const QuickSocialLinks = () => {
         <>
         
             <div className="flex items-center gap-4 my-4 text-white">
-                <Link to="https://www.linkedin.com/in/yasin-arafat-dev/" className="hover:text-blue-500 text-xl sm:text-2xl md:text-3xl"><FaLinkedin></FaLinkedin></Link>
+                <Link to="https://www.linkedin.com/in/yasin-arafat-web/" className="hover:text-blue-500 text-xl sm:text-2xl md:text-3xl"><FaLinkedin></FaLinkedin></Link>
                 <Link to="https://github.com/arafat-yasin-2413" className="hover:text-blue-500 text-xl sm:text-2xl md:text-3xl"><FaGithub></FaGithub></Link>
                 <Link to="https://www.facebook.com/yasin.arafat.482092/" className="hover:text-blue-500 text-xl sm:text-2xl md:text-3xl"><FaFacebookF></FaFacebookF></Link>
                 <Link to="https://x.com/YasinArafa43087" className="hover:text-blue-500 text-xl sm:text-2xl md:text-3xl"><FaTwitter></FaTwitter></Link>
