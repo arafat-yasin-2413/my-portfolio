@@ -37,7 +37,7 @@ const QuickSocialLinks = () => {
             </div>
 
             <div className="mb-8">
-                <a href="/Resume_of_Md_Yasin_Arafat.pdf" download>
+                <a href="/Md_Yasin_Arafat_Frontend_Developer_4_May_2026.pdf" target="_blank" rel="noopener noreferrer">
                     <button className="flex justify-center items-center bg-accent hover:bg-accent/90 text-white tracking-wider w-fit rounded px-3 py-1 md:py-2 text-sm font-bold cursor-pointer">
                         Resume<IoMdDownload size={24}></IoMdDownload>
                     </button>

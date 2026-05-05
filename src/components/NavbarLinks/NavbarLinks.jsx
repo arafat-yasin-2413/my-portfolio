@@ -44,7 +44,7 @@ const NavbarLinks = () => {
                 </NavLink>
             </li>
             <li>
-                <a href="/Resume_of_Md_Yasin_Arafat.pdf" download>
+                <a href="/Md_Yasin_Arafat_Frontend_Developer_4_May_2026.pdf" target="_blank" rel="noopener noreferrer">
                     <button className="nav  flex items-center gap-1 sm:text-[1rem] md:text-[1.1rem] text-white cursor-pointer">
                         <FaRegFileAlt></FaRegFileAlt>
                         <span>Resume</span>
