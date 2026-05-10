@@ -13,16 +13,14 @@ const Frontend = () => {
 
                 <div className="border border-gray-200 w-36 mx-auto mb-4"></div>
 
-                <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center xl:w-1/2 xl:mx-auto">
+                <div className="grid grid-cols-4 sm:grid-cols-8 gap-4 justify-items-center xl:w-1/2 xl:mx-auto">
                     {/* html */}
                     <IconCard
                         icon={
                             <Icon icon="devicon:html5" width="40" height="40" />
                         }
-                        text={"HTML"}
-                    ></IconCard>
+                        text={"HTML"}></IconCard>
 
-                    
                     {/* css */}
                     <IconCard
                         icon={
@@ -32,8 +30,7 @@ const Frontend = () => {
                                 height="40"
                             />
                         }
-                        text={"CSS"}
-                    ></IconCard>
+                        text={"CSS"}></IconCard>
 
                     {/* tailwind */}
                     <IconCard
@@ -43,8 +40,18 @@ const Frontend = () => {
                                 width="40"
                                 height="40"
                             />
-                        }
-                    ></IconCard>
+                        }></IconCard>
+
+                    {/* shadcn */}
+                    <IconCard
+                        icon={
+                            <Icon
+                                className="dark:invert"
+                                icon="simple-icons:shadcnui"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
 
                     {/* daisyui */}
                     <IconCard
@@ -54,8 +61,7 @@ const Frontend = () => {
                                 width="40"
                                 height="40"
                             />
-                        }
-                    ></IconCard>
+                        }></IconCard>
 
                     {/* vite */}
                     <IconCard
@@ -65,19 +71,24 @@ const Frontend = () => {
                                 width="40"
                                 height="40"
                             />
-                        }
-                    ></IconCard>
+                        }></IconCard>
 
                     {/* react */}
                     <IconCard
                         icon={
                             <Icon icon="devicon:react" width="40" height="40" />
-                        }
-                    ></IconCard>
-                </div>
+                        }></IconCard>
 
-               
-                
+                    {/* nextjs */}
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="skill-icons:nextjs-dark"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
+                </div>
             </div>
         </>
     );

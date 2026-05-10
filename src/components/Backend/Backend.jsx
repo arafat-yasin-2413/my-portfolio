@@ -14,27 +14,68 @@ const Backend = () => {
                 <div className="border border-gray-200 w-30 mx-auto mb-4"></div>
 
                 <div className="flex gap-4 my-2 justify-center items-center">
-
-                    
                     {/* js */}
-                    <IconCard icon={<Icon icon="vscode-icons:file-type-js-official" width="40" height="40" />} ></IconCard>
-                    
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="vscode-icons:file-type-js-official"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
 
                     {/* mongodb */}
-                    <IconCard icon={<Icon icon="logos:mongodb-icon" width="40" height="40" />} ></IconCard>   
-                    
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="logos:mongodb-icon"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
 
                     {/* node js */}
-                    <IconCard icon={<Icon icon="vscode-icons:file-type-node" width="40" height="40" />} ></IconCard>
-                    
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="vscode-icons:file-type-node"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
 
                     {/* express js */}
-                    <IconCard icon={<Icon icon="lineicons:expressjs" className="text-white" width="40" height="40" />} ></IconCard>
-                    
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="lineicons:expressjs"
+                                className="text-white"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
+
+                    {/* postgresql */}
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="logos:postgresql"
+                                className="text-white"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
+                    {/* prisma orm */}
+                    <IconCard
+                        icon={
+                            <Icon
+                                icon="skill-icons:prisma"
+                                className="text-white"
+                                width="40"
+                                height="40"
+                            />
+                        }></IconCard>
                 </div>
-
-
-
             </div>
         </>
     );
