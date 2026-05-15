@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="border border-gray-200/50 mt-8"></div>
 
 
-                <p className="flex justify-center items-center gap-1 my-2 text-white"><Icon icon="si:copyright-alt-line" width="24" height="24" /> 2025 All Rights Reserved. Md Yasin Arafat.</p>
+                <p className="flex justify-center items-center gap-1 my-2 text-white"><Icon icon="si:copyright-alt-line" width="24" height="24" /> 2026 All Rights Reserved. Md Yasin Arafat.</p>
 
 
             <div className="border border-gray-200/50"></div>
