@@ -19,7 +19,7 @@ const ProjectDetails = () => {
         futurePlans,
     } = location.state || {};
 
-    console.log(location.state);
+    // console.log(location.state);
 
     // if (location.state === null) {
     //     console.log("hello null");
@@ -38,8 +38,7 @@ const ProjectDetails = () => {
                             .{" "}
                             <Link
                                 to="/projects"
-                                className="bg-accent text-white px-2 py-1 rounded-md cursor-pointer hover:bg-accent/80"
-                            >
+                                className="bg-accent text-white px-2 py-1 rounded-md cursor-pointer hover:bg-accent/80">
                                 Go Back
                             </Link>{" "}
                             and Come Here again Clicking the{" "}
@@ -81,20 +80,18 @@ const ProjectDetails = () => {
                             <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
                                     <Subtitle
-                                        text={"Brief Description"}
-                                    ></Subtitle>
+                                        text={"Brief Description"}></Subtitle>
                                 </div>
 
                                 <div className="my-4">
                                     {features.map((feature, idx) => (
                                         <p
                                             key={idx}
-                                            className="flex items-center gap-2 mb-1 text-xs sm:text-sm md:text-base"
-                                        >
+                                            className="flex items-center gap-2 mb-1 text-xs sm:text-sm md:text-base">
                                             <Icon
                                                 icon={feature.icon}
                                                 width="20"
-                                                className={`${feature.color}`} 
+                                                className={`${feature.color}`}
                                             />
                                             {feature.description}
                                         </p>
@@ -105,9 +102,9 @@ const ProjectDetails = () => {
                             {/* links */}
                             <div className="mt-8 flex items-center gap-4">
                                 <Link
+                                    target="_blank"
                                     to={live}
-                                    className="btn text-xs sm:text-sm bg-accent text-white hover:bg-accent/80 flex items-center gap-2"
-                                >
+                                    className="btn text-xs sm:text-sm bg-accent text-white hover:bg-accent/80 flex items-center gap-2">
                                     <Icon
                                         icon="material-symbols:open-in-new"
                                         width="20"
@@ -116,9 +113,9 @@ const ProjectDetails = () => {
                                 </Link>
 
                                 <Link
+                                    target="_blank"
                                     to={github}
-                                    className="btn text-xs sm:text-sm bg-accent text-white hover:bg-accent/80 flex items-center gap-2"
-                                >
+                                    className="btn text-xs sm:text-sm bg-accent text-white hover:bg-accent/80 flex items-center gap-2">
                                     <Icon
                                         icon="ri:github-line"
                                         width="24"
@@ -132,45 +129,40 @@ const ProjectDetails = () => {
                             <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
                                     <Subtitle
-                                        text={"Challenges Faced"}
-                                    ></Subtitle>
+                                        text={"Challenges Faced"}></Subtitle>
                                 </div>
 
                                 <div className="my-4">
                                     {challenges.map((challenge, idx) => (
                                         <p
                                             key={idx}
-                                            className="flex items-center gap-2 mb-2 text-xs sm:text-sm md:text-base"
-                                        >
+                                            className="flex items-center gap-2 mb-2 text-xs sm:text-sm md:text-base">
                                             <Icon
                                                 icon={challenge.icon}
                                                 width="22"
-                                                className={`${challenge.color}`} 
+                                                className={`${challenge.color}`}
                                             />
                                             {challenge.description}
                                         </p>
                                     ))}
                                 </div>
                             </div>
-                            
+
                             {/* Future Plans */}
                             <div className="mt-8 text-white">
                                 <div className="border-b-2 w-fit border-gray-200 ">
-                                    <Subtitle
-                                        text={"Future Plans"}
-                                    ></Subtitle>
+                                    <Subtitle text={"Future Plans"}></Subtitle>
                                 </div>
 
                                 <div className="my-4">
                                     {futurePlans.map((plan, idx) => (
                                         <p
                                             key={idx}
-                                            className="flex items-center gap-2 mb-2 text-xs sm:text-sm md:text-base"
-                                        >
+                                            className="flex items-center gap-2 mb-2 text-xs sm:text-sm md:text-base">
                                             <Icon
                                                 icon={plan.icon}
                                                 width="22"
-                                                className={`${plan.color}`} 
+                                                className={`${plan.color}`}
                                             />
                                             {plan.description}
                                         </p>
